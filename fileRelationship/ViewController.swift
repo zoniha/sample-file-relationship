@@ -8,10 +8,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+	@IBOutlet weak var firstScreen: UILabel!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
+		firstScreen.text = "First Screen"
 	}
 
 
